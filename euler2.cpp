@@ -3,21 +3,24 @@ using namespace std;
 
 int main() {
 
-int f=0;
-int x=1;
-int y=2;
-int z=0;
-	
-for( z = x;f<=20; f=x+y ){
-z=x;
+int sum=0;
+int f=1;
+int x=0;
+int y=1;
+
+
+while(f<4000000){
+
+f=x+y;
 x=y;
-y=y+z;
+y=f;
+
+if(f%2==0){
 	
-cout << x << y << f;	
-	
-	
+sum=sum+f;
 	
 }
-
+cout << sum;
 	return 0;
+}
 }
