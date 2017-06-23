@@ -10,11 +10,12 @@ int main()
 	for (i=0; i<1000; i++)
 		{
 		
-		if(i%3 || i%5)
+		if(i%3==0 || i%5==0){
 		
 		sum = sum+i;
 		
 		//i++; //adds one increment per operation.
+		}
 	}
 		cout << sum <<" is the sum of all multiples of 3 and 5.";
 }
