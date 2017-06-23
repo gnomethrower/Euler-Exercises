@@ -18,4 +18,5 @@ int main()
 		}
 	}
 		cout << sum <<" is the sum of all multiples of 3 and 5.";
+	return 0;
 }
